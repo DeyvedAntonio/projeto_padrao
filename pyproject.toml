@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "projeto-padrao"
+version = "0.1.0"
+description = ""
+authors = ["DeyvedSilva <deyved.silva@blueshift.com.br>"]
+readme = "README.md"
+packages = [{include = "projeto_padrao"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+black = "^22.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
